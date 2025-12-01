@@ -234,7 +234,7 @@ const HowToBuy: React.FC = () => {
 
       {/* Desktop Layout */}
       <div className="hidden lg:flex relative z-10 flex-col">
-        <div className="text-center pt-[10%] mb-0">
+        <div className="text-center pt-[7%] mb-0">
           <h1 className="justify-self-start px-10 lg:px-20 text-4xl lg:text-6xl xl:text-[128px] font-bold font-[Irish_Grover] mb-2 absolute left-10 lg:left-20 top-[10%]">
             How To Buy
           </h1>
