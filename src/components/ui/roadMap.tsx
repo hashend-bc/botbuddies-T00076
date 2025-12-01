@@ -29,9 +29,9 @@ const RoadMap: React.FC = () => {
   }, []);
 
   return (
-    <section className="relative w-full py-12 md:py-16 lg:py-24 -mt-[8%] overflow-hidden text-white">
+    <section className="relative w-full py-12 md:py-16 lg:py-32 -mt-[8%] overflow-hidden text-white">
       {/* Section title */}
-      <h2 className="text-4xl sm:text-5xl lg:text-8xl font-bold text-center font-[Irish_Grover] mb-8 md:mb-12 lg:mb-16 px-4 section-header">
+      <h2 className="text-4xl sm:text-5xl lg:text-8xl font-bold text-center font-[Irish_Grover] mb-8 md:mb-12 lg:mb-20 px-4 section-header">
         Road Map
       </h2>
 
@@ -133,7 +133,7 @@ const RoadMap: React.FC = () => {
         />
 
         {/* Steps */}
-        <div className="relative flex flex-row justify-center items-start gap-16 xl:gap-28 z-10   mx-auto pt-32">
+        <div className="relative flex flex-row justify-center items-start gap-16 xl:gap-20 z-10  mx-auto pt-32 md:pr-10">
           <div className="flex flex-col items-center mt-40">
             <RoadStep {...stepData[0]} activeStep={activeStep} />
           </div>

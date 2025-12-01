@@ -58,7 +58,7 @@ const RoadStep: React.FC<RoadStepProps> = ({ stepId, title, description, activeS
       <h3 className="font-[Irish_Grover] text-base sm:text-lg font-bold -ml-10 mt-2 text-white">
         {title}
       </h3>
-      <p className="font-[Advent_Pro]  text-xs sm:text-base mt-1 text-white/90 pl-4   ">
+      <p className="font-[Advent_Pro]  text-xs sm:text-base mt-1 text-white/90 ml-38   ">
         {description}
       </p>
     </div>
